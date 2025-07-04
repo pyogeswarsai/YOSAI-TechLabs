@@ -1,0 +1,172 @@
+/*Body section*/
+body {
+    background-image: url('courseImg.webp');
+    background-size: cover;
+}
+
+
+/*container 1*/
+.container1 {
+    text-align: center;
+    color: white;
+}
+.container1 h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+/*container 2*/
+.container2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.p1 {
+    background-color: forestgreen;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+
+/*container 3*/
+.container3 {
+    display: flex;
+    justify-content: center;
+    gap:40px
+}
+.part1 {
+    margin-top: 55px;
+}
+.part1 .p2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.part1 .p3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 8px;
+    color: white;
+}
+.box {
+    background-color: bisque;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+}
+.tag {
+    background-color: goldenrod;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    width: 60px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 12px;
+    font-size: 50px;
+}
+.p4, .p5, .p6 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.p7 {
+    background: linear-gradient(to right, chocolate, lightsalmon);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;    
+    font-weight: bold;
+    font-size: 20px;
+}
+.p7 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Registration section*/
+#registration {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container4 {
+    color:white;
+    margin-top: 155px;
+}
+.p8 {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+.p9 {
+    font-size: 25px;
+    color: gold;
+}
+h4{
+    font-size: 20px;
+    color: aqua;
+}
+/*Form Container*/
+.form-container {
+    width: 30%;
+    margin-top: 75px;
+    margin-left: 60px;
+    border: 1px solid gray;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: light;
+    background: linear-gradient(to right,lightblue,white);
+}
+.user-input {
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: lightcyan;
+    font-size: 18px;
+}
+.user-input::placeholder {
+    font-size: 15px;
+}
+select {
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    font-weight: bold;
+}
+#p3 {
+    font-size: 20px;
+}
+label {
+    font-size: 18px;
+
+}
+button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

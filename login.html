@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            height: 100vh;
+            background-image: url("loginImage.webp");
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            width: 350px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        input {
+            font-size: 18px;
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        input::placeholder {
+            font-size: 16px;
+            color: #999;
+        }
+
+        button {
+            width: 100%;
+            font-size: 18px;
+            background-color: chocolate;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: darkcyan;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+    <link rel="Icon" type="image/x-icon" href="favicon.ico">    
+</head>
+
+<body>
+    <div class="login-container">
+        <form action="index.html">
+            <h2>LOGIN</h2><br />
+            <div class="sec">
+                <label for="email">
+                    <h3>Username</h3>
+                </label>
+                <input type="text" class="email" placeholder="Enter Username" required /><br /><br />
+            </div>
+            <div class="sec">
+                <label for="password">
+                    <h3>Password</h3>
+                </label>
+                <input type="password" class="password" placeholder="Enter Password" required /><br /><br />
+            </div>
+            <button type="submit">Login</button>
+            <p><b>Don't have an account </b><a href="signup.html">Signup</a></p>
+        </form>
+    </div>
+</body>
+
+</html>

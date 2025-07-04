@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>signup form</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            display: flex;
+            height: 730px;
+            background-image: url('signupImage.jpg');
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signup-container {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input {
+            font-size: 20px;
+            width: 260px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        input::placeholder {
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            font-size: 20px;
+            background-color: rgb(33, 133, 190);
+            color: black;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: darkcyan;
+        }
+
+        a {
+            margin-left: 10px;
+            color: red;
+            font-size: 100%;
+        }
+
+        p {
+            font-size: 120%;
+        }
+    </style>
+    <link rel="Icon" type="image/x-icon" href="favicon.ico">    
+</head>
+
+<body>
+    <div class="signup-container">
+        <form action="login.html">
+            <h2>Signup</h2>
+            <div class="section">
+                <label for="user">Username</label>
+                <input class="user" type="text" placeholder="Enter Username" required /><br /><br />
+            </div>
+            <div class="section">
+                <label for="user">Email</label>
+                <input class="email" type="email" placeholder="Enter Email" required /><br /><br />
+            </div>
+            <div class="section">
+                <label for="user">Password</label>
+                <input class="password" type="password" placeholder="Enter Password" required /><br /><br />
+            </div>
+            <div class="section">
+                <label for="user">Re-type password</label>
+                <input class="password" type="password" placeholder="Re-type Password" required /><br /><br />
+            </div>
+            <button type="submit">Signup</button>
+            <p><b>Already have an account </b> <a href="login.html">Login</a> </p>
+        </form>
+    </div>
+</body>
+
+</html>
